@@ -16,6 +16,7 @@ public class BitStrings {
             result = (result * 2) % MOD;
         }
 
+
         System.out.println(result);
     }
 }
