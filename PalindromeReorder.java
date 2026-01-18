@@ -62,8 +62,14 @@ public class PalindromeReorder {
 
         // Middle part if odd
         StringBuilder middle = new StringBuilder();
+//        if (oddIndex != -1) {
+//            for (int j = 0; j < freq[oddIndex] % 2; j++) {
+//                middle.append((char) (oddIndex + 'A'));
+//            }
+//        }
+
         if (oddIndex != -1) {
-            for (int j = 0; j < freq[oddIndex] % 2; j++) {
+            for (int j = 0; j < 1; j++) {
                 middle.append((char) (oddIndex + 'A'));
             }
         }
