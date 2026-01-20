@@ -24,7 +24,5 @@ public class ConcertTickets {
         for(int i = 0 ; i < m ; i++) highBid[i] = Long.parseLong(st.nextToken());
 
         Arrays.sort(ticketPrice);
-
-        int
     }
 }
